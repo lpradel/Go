@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="sp1 vs sp2" type="capture-go">
+    <comment>sp2 hat gewonnen!</comment>
+    <board size="9"/>
+    <players>
+        <black name="sp1"/>
+        <white name="sp2"/>
+    </players>
+    <setup>
+        <put color="black" pos="d4"/>
+        <put color="black" pos="e5"/>
+        <put color="white" pos="d5"/>
+        <put color="white" pos="e4"/>
+    </setup>
+    <moves>
+        <move color="black" pos="a1"/>
+        <move color="white" pos="b1"/>
+        <move color="black" pos="f1"/>
+        <move color="white" pos="b2"/>
+        <move color="black" pos="f2"/>
+        <move color="white" pos="a2"/>
+        <black-wins/>
+    </moves>
+</game>

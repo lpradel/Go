@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+ 
+<game title="Finale 加藤 正夫 vs. 小林 光一" date="1979-11-24" type="capture-go">
+	<comment>
+		加藤 正夫 (Kato Masao) vs. 小林 光一 (Kobayashi Koichi)
+	</comment>
+	<board size="9"/>
+	<players>
+		<black name="加藤 正夫"/>
+		<white name="小林 光一"/>
+				<ai color="black" difficulty="easy" />
+                <ai color="white" difficulty="hard" />
+	</players>
+	<setup>
+		<put color="black" pos="k3"/>
+		<put color="black" pos="d4"/>
+		<put color="black" pos="c9"/>
+		<put color="black" pos="s13"/>
+	</setup>
+	<moves>
+		<move color="black" pos="a5"/>
+		<move color="white" pos="d8"/>
+		<move color="black" pos="e7"/>
+		<move color="white" pos="b2"/>
+		<move color="black" pos="g3"/>
+		<move color="white" pos="h4"/>
+		<pass color="black"/>
+		<move color="white" pos="i9"/>
+		<move color="black" pos="c1"/>
+		<move color="white" pos="f6"/>
+		<black-wins/> <!-- alternatively: white-wins or draw -->
+	</moves>
+</game>
+

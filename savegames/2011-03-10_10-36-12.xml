@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="Ich vs Du" type="go">
+    <comment>Du hat gewonnen^^</comment>
+    <board size="19"/>
+    <players>
+        <black name="Ich"/>
+        <white name="Du"/>
+    </players>
+    <moves>
+        <white-wins/>
+    </moves>
+</game>

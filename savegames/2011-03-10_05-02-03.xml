@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="dawdawd vs Bob" type="capture-go">
+    <comment>serfsef</comment>
+    <board size="9"/>
+    <players>
+        <black name="dawdawd"/>
+        <white name="Bob"/>
+        <ai color="white" difficulty="easy"/>
+    </players>
+    <setup>
+        <put color="black" pos="d4"/>
+        <put color="black" pos="e5"/>
+        <put color="white" pos="d5"/>
+        <put color="white" pos="e4"/>
+    </setup>
+    <moves>
+        <move color="black" pos="f5"/>
+        <move color="white" pos="g5"/>
+        <move color="black" pos="f6"/>
+        <move color="white" pos="e7"/>
+        <move color="black" pos="d7"/>
+        <move color="white" pos="f7"/>
+        <move color="black" pos="g7"/>
+        <move color="white" pos="f2"/>
+        <move color="black" pos="f8"/>
+        <move color="white" pos="e8"/>
+        <move color="black" pos="d8"/>
+        <move color="white" pos="e9"/>
+        <move color="black" pos="f9"/>
+        <move color="white" pos="d9"/>
+        <move color="black" pos="c9"/>
+        <black-wins/>
+    </moves>
+</game>

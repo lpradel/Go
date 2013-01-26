@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="dawd vs awda" type="go">
+    <comment>dawdadawd</comment>
+    <board size="13"/>
+    <players>
+        <black name="dawd"/>
+        <white name="awda"/>
+    </players>
+    <moves>
+        <move color="black" pos="h8"/>
+        <move color="white" pos="e7"/>
+        <move color="black" pos="f8"/>
+        <move color="white" pos="f6"/>
+        <move color="black" pos="h6"/>
+        <pass color="white"/>
+        <pass color="black"/>
+        <draw/>
+    </moves>
+</game>

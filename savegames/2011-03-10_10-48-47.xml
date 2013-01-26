@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="spieler1-s vs spieler2-w" type="go">
+    <comment>nix!</comment>
+    <board size="19"/>
+    <players>
+        <black name="spieler1-s"/>
+        <white name="spieler2-w"/>
+    </players>
+    <moves/>
+</game>

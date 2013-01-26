@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhgktjvkmy-8rstlf">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:go.Spielstand">
+			<property name="bounds" value="935,244,200,422"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:Variante">
+				<property name="sourceAnchor" value="1140,518"/>
+				<property name="targetAnchor" value="1620,798"/>
+			</reference>
+			<reference referencedUin="jdt:e_method:src:go.Spielstand.notifyObservers:notifyObservers">
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:Spieler2">
+				<property name="sourceAnchor" value="940,520"/>
+				<property name="targetAnchor" value="760,736"/>
+				<property name="bendpoints" value="760,520"/>
+				<property name="smooth_bendpoints" value="760,520"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:redoStack">
+				<property name="sourceAnchor" value="940,340"/>
+				<property name="targetAnchor" value="900,340"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielstand:redoStack">
+					<property name="bounds" value="910,316,28,21"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:go.Spielstand:redoStack">
+					<property name="bounds" value="947,226,13,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:lnkSpieler">
+				<property name="sourceAnchor" value="940,508"/>
+				<property name="targetAnchor" value="760,736"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielstand:lnkSpieler">
+					<property name="bounds" value="745,712,13,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:lnkSpielzug">
+				<property name="sourceAnchor" value="940,302"/>
+				<property name="targetAnchor" value="900,302"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielstand:lnkSpielzug">
+					<property name="bounds" value="910,278,11,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:undoStack">
+				<property name="sourceAnchor" value="940,280"/>
+				<property name="targetAnchor" value="900,280"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielstand:undoStack">
+					<property name="bounds" value="910,256,28,21"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:go.Spielstand:undoStack">
+					<property name="bounds" value="967,226,13,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielstand:Spieler1">
+				<property name="sourceAnchor" value="940,566"/>
+				<property name="targetAnchor" value="782,736"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Uneinigkeit">
+			<property name="bounds" value="1815,1035,116,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:go.Uneinigkeit:Variante">
+				<property name="sourceAnchor" value="1820,1040"/>
+				<property name="targetAnchor" value="1819,942"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Spielzug">
+			<property name="bounds" value="695,112,200,269"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:spieler">
+				<property name="sourceAnchor" value="738,386"/>
+				<property name="targetAnchor" value="738,736"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:lnkSpieler">
+				<property name="sourceAnchor" value="738,233"/>
+				<property name="targetAnchor" value="738,736"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:geschlageneSteine">
+				<property name="sourceAnchor" value="900,189"/>
+				<property name="targetAnchor" value="1000,189"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielzug:geschlageneSteine">
+					<property name="bounds" value="979,165,11,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:lnkPosition">
+				<property name="sourceAnchor" value="858,161"/>
+				<property name="targetAnchor" value="900,161"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielzug:lnkPosition">
+					<property name="bounds" value="879,137,11,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:gesetzterStein">
+				<property name="sourceAnchor" value="900,189"/>
+				<property name="targetAnchor" value="1000,189"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielzug:gesetzterStein">
+					<property name="bounds" value="940,165,30,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielzug:lnkPosition1">
+				<property name="sourceAnchor" value="858,153"/>
+				<property name="targetAnchor" value="900,153"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Spielzug:lnkPosition1">
+					<property name="bounds" value="860,109,30,21"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Spiel">
+			<property name="bounds" value="975,697,200,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Spiel:lnkSpielstand">
+				<property name="sourceAnchor" value="1080,702"/>
+				<property name="targetAnchor" value="1080,671"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spiel:lnkSpielvariante">
+				<property name="sourceAnchor" value="925,747"/>
+				<property name="targetAnchor" value="925,960"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spiel:lnkVariante">
+				<property name="sourceAnchor" value="1180,854"/>
+				<property name="targetAnchor" value="1620,854"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spiel:lnkSpielbrett">
+				<property name="sourceAnchor" value="1180,703"/>
+				<property name="targetAnchor" value="1344,572"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Variante">
+			<property name="bounds" value="1615,770,200,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_method:src:go.Variante.initialisiereSpielbrett:initialisiereSpielbrett">
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Variante:lnkSpielbrett">
+				<property name="sourceAnchor" value="1657,775"/>
+				<property name="targetAnchor" value="1544,642"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Variante:lnkSpielbrett">
+					<property name="bounds" value="1574,650,13,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:go.Variante:lnkSpielzug">
+				<property name="sourceAnchor" value="1700,774"/>
+				<property name="targetAnchor" value="900,220"/>
+				<property name="bendpoints" value="1700,220"/>
+				<property name="smooth_bendpoints" value="1700,220"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Steinschlag">
+			<property name="bounds" value="1675,1035,119,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:go.Steinschlag:Variante">
+				<property name="sourceAnchor" value="1739,1040"/>
+				<property name="targetAnchor" value="1739,942"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Statistik">
+			<property name="bounds" value="675,1135,196,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:go.Statistik:lnkSpielausgang">
+				<property name="sourceAnchor" value="798,1140"/>
+				<property name="targetAnchor" value="798,1062"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:go.Statistik:lnkSpieler">
+				<property name="sourceAnchor" value="680,1140"/>
+				<property name="targetAnchor" value="680,886"/>
+				<property name="bendpoints" value=""/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Controller">
+			<property name="bounds" value="115,375,200,218"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkStatistik">
+				<property name="sourceAnchor" value="140,598"/>
+				<property name="targetAnchor" value="680,1200"/>
+				<property name="bendpoints" value="140,1200"/>
+				<property name="smooth_bendpoints" value="140,1200"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkGUI">
+				<property name="sourceAnchor" value="197,380"/>
+				<property name="targetAnchor" value="197,250"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkSpiel">
+				<property name="sourceAnchor" value="320,580"/>
+				<property name="targetAnchor" value="980,750"/>
+				<property name="bendpoints" value="480,580"/>
+				<property name="smooth_bendpoints" value="480,580"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkSpielstand">
+				<property name="sourceAnchor" value="320,414"/>
+				<property name="targetAnchor" value="940,414"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkSpielbrett">
+				<property name="sourceAnchor" value="320,540"/>
+				<property name="targetAnchor" value="1344,540"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkKIHaupt">
+				<property name="sourceAnchor" value="240,598"/>
+				<property name="targetAnchor" value="240,818"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:go.Controller:lnkSpieler">
+				<property name="sourceAnchor" value="320,580"/>
+				<property name="targetAnchor" value="639,757"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:go.Controller:lnkSpielausgang">
+				<property name="sourceAnchor" value="320,580"/>
+				<property name="targetAnchor" value="721,941"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkKINeben">
+				<property name="sourceAnchor" value="200,598"/>
+				<property name="targetAnchor" value="200,818"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Controller:lnkKI">
+				<property name="sourceAnchor" value="270,598"/>
+				<property name="targetAnchor" value="270,819"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:go.Controller:lnkKI">
+					<property name="bounds" value="273,788,30,21"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.GUI">
+			<property name="bounds" value="95,95,174,150"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Spielbrett">
+			<property name="bounds" value="1339,395,200,252"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Spielbrett:feld">
+				<property name="sourceAnchor" value="1421,400"/>
+				<property name="targetAnchor" value="1421,144"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.Spielbrett:lnkGUI">
+				<property name="sourceAnchor" value="1344,560"/>
+				<property name="targetAnchor" value="266,250"/>
+				<property name="bendpoints" value="600,560"/>
+				<property name="smooth_bendpoints" value="600,560"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Leicht">
+			<property name="bounds" value="175,1095,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:go.Leicht:KIStrategie">
+				<property name="sourceAnchor" value="237,1100"/>
+				<property name="targetAnchor" value="237,1021"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Spieler">
+			<property name="bounds" value="635,731,144,150"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Spieler:farbe">
+				<property name="sourceAnchor" value="680,736"/>
+				<property name="targetAnchor" value="1344,100"/>
+				<property name="bendpoints" value="680,100"/>
+				<property name="smooth_bendpoints" value="680,100"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Position">
+			<property name="bounds" value="995,115,96,82"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Klassisch">
+			<property name="bounds" value="1538,1035,102,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.Klassisch:lnkSpielbrett">
+				<property name="sourceAnchor" value="1574,1040"/>
+				<property name="targetAnchor" value="1440,652"/>
+				<property name="bendpoints" value="1440,740"/>
+				<property name="smooth_bendpoints" value="1440,740"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:go.Klassisch:Variante">
+				<property name="sourceAnchor" value="1632,1040"/>
+				<property name="targetAnchor" value="1632,942"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.KI">
+			<property name="bounds" value="195,814,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:go.KI:lnkSpieler">
+				<property name="sourceAnchor" value="400,844"/>
+				<property name="targetAnchor" value="640,844"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:go.KI:lnkKIStrategie">
+				<property name="sourceAnchor" value="310,899"/>
+				<property name="targetAnchor" value="310,941"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.KIStrategie">
+			<property name="bounds" value="195,936,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Spielausgang">
+			<property name="bounds" value="715,936,136,121"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_field:src:go.Spielausgang.aufgegeben">
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Schwer">
+			<property name="bounds" value="327,1095,88,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:go.Schwer:KIStrategie">
+				<property name="sourceAnchor" value="366,1100"/>
+				<property name="targetAnchor" value="366,1021"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:go.Farbe">
+			<property name="bounds" value="1339,35,108,104"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

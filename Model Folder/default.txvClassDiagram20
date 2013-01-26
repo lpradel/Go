@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhgkfg2d0v-ozl83m">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:Spiel">
+			<property name="bounds" value="1342,25,200,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Spiel:lnkSpielvariante">
+				<property name="sourceAnchor" value="1534,197"/>
+				<property name="targetAnchor" value="1534,383"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spiel:lnkSpielstand">
+				<property name="sourceAnchor" value="1397,197"/>
+				<property name="targetAnchor" value="1115,289"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spiel:lnkVariante">
+				<property name="sourceAnchor" value="1347,40"/>
+				<property name="targetAnchor" value="313,40"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Spiel:lnkStatistik">
+				<property name="sourceAnchor" value="186,160"/>
+				<property name="targetAnchor" value="275,246"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spiel:lnkSpielbrett">
+				<property name="sourceAnchor" value="1372,197"/>
+				<property name="targetAnchor" value="670,331"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Spielbrett">
+			<property name="bounds" value="515,326,200,184"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:Spielbrett:lnkPosition">
+				<property name="sourceAnchor" value="620,331"/>
+				<property name="targetAnchor" value="431,154"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spielbrett:lnkGUI">
+				<property name="sourceAnchor" value="702,515"/>
+				<property name="targetAnchor" value="982,628"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spielbrett:feld">
+				<property name="sourceAnchor" value="685,515"/>
+				<property name="targetAnchor" value="685,651"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Spieler">
+			<property name="bounds" value="765,377,136,133"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Spieler:farbe">
+				<property name="sourceAnchor" value="802,515"/>
+				<property name="targetAnchor" value="730,651"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Spieler:lnkSpielzug">
+				<property name="sourceAnchor" value="359,254"/>
+				<property name="targetAnchor" value="276,254"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Statistik">
+			<property name="bounds" value="1062,50,200,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:Statistik:lnkSpieler">
+				<property name="sourceAnchor" value="1133,171"/>
+				<property name="targetAnchor" value="858,382"/>
+				<property name="bendpoints" value="858,354"/>
+				<property name="smooth_bendpoints" value="858,354"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Statistik:lnkSpielausgang">
+				<property name="sourceAnchor" value="1267,78"/>
+				<property name="targetAnchor" value="1597,77"/>
+				<property name="bendpoints" value="1336,20,1558,20"/>
+				<property name="smooth_bendpoints" value="1336,20,1558,20"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Spielzug">
+			<property name="bounds" value="634,50,158,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Spielzug:lnkSpieler">
+				<property name="sourceAnchor" value="776,171"/>
+				<property name="targetAnchor" value="780,382"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spielzug:lnkPosition">
+				<property name="sourceAnchor" value="639,99"/>
+				<property name="targetAnchor" value="479,99"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Spielzug:lnkPosition">
+					<property name="bounds" value="489,75,11,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Spielzug:lnkPosition1">
+				<property name="sourceAnchor" value="639,126"/>
+				<property name="targetAnchor" value="479,126"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Spielzug:lnkPosition1">
+					<property name="bounds" value="489,102,30,21"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Position">
+			<property name="bounds" value="378,67,96,82"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Spielvariante">
+			<property name="bounds" value="1517,378,130,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Steinschlag">
+			<property name="bounds" value="157,378,119,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:Steinschlag:Variante">
+				<property name="sourceAnchor" value="191,383"/>
+				<property name="targetAnchor" value="191,197"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Klassisch">
+			<property name="bounds" value="5,378,102,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Klassisch:lnkSpielbrett">
+				<property name="sourceAnchor" value="112,447"/>
+				<property name="targetAnchor" value="520,481"/>
+				<property name="bendpoints" value="163,481"/>
+				<property name="smooth_bendpoints" value="163,481"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:Klassisch:Variante">
+				<property name="sourceAnchor" value="61,383"/>
+				<property name="targetAnchor" value="153,197"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Uneinigkeit">
+			<property name="bounds" value="296,378,116,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:Uneinigkeit:Variante">
+				<property name="sourceAnchor" value="311,383"/>
+				<property name="targetAnchor" value="231,197"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:KI">
+			<property name="bounds" value="812,68,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:KI:lnkKIStrategie">
+				<property name="sourceAnchor" value="1017,89"/>
+				<property name="targetAnchor" value="1783,89"/>
+				<property name="bendpoints" value="1087,10,1716,10"/>
+				<property name="smooth_bendpoints" value="1087,10,1716,10"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:KI:lnkSpieler">
+				<property name="sourceAnchor" value="837,153"/>
+				<property name="targetAnchor" value="837,382"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Schwer">
+			<property name="bounds" value="1782,378,88,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:Schwer:KIStrategie">
+				<property name="sourceAnchor" value="1831,383"/>
+				<property name="targetAnchor" value="1831,153"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Leicht">
+			<property name="bounds" value="1890,378,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:Leicht:KIStrategie">
+				<property name="sourceAnchor" value="1935,383"/>
+				<property name="targetAnchor" value="1935,153"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Variante">
+			<property name="bounds" value="108,25,200,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:Variante:lnkSpielbrett">
+				<property name="sourceAnchor" value="724,448"/>
+				<property name="targetAnchor" value="136,193"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Variante:lnkSpielbrett">
+				<property name="sourceAnchor" value="272,197"/>
+				<property name="targetAnchor" value="570,331"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Variante:lnkSpielbrett">
+					<property name="bounds" value="557,302,13,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Variante:lnkSpielzug">
+				<property name="sourceAnchor" value="313,58"/>
+				<property name="targetAnchor" value="639,65"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:KIStrategie">
+			<property name="bounds" value="1778,68,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::i5rzwgkpfjxpn3e1pty">
+			<property name="bounds" value="2600,285,158,368"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Farbe">
+			<property name="bounds" value="663,646,108,104"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Controller">
+			<property name="bounds" value="1297,309,200,218"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkGUI">
+				<property name="sourceAnchor" value="1402,532"/>
+				<property name="targetAnchor" value="1040,628"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkStatistik">
+				<property name="sourceAnchor" value="1382,314"/>
+				<property name="targetAnchor" value="1200,171"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkSpiel">
+				<property name="sourceAnchor" value="1422,314"/>
+				<property name="targetAnchor" value="1422,197"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkKI">
+				<property name="sourceAnchor" value="1342,314"/>
+				<property name="targetAnchor" value="927,153"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:Controller:lnkKI">
+					<property name="bounds" value="992,154,30,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Controller:lnkSpieler">
+				<property name="sourceAnchor" value="1302,452"/>
+				<property name="targetAnchor" value="879,448"/>
+				<property name="bendpoints" value="1184,578,978,578"/>
+				<property name="smooth_bendpoints" value="1184,578,978,578"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkSpielstand">
+				<property name="sourceAnchor" value="1302,383"/>
+				<property name="targetAnchor" value="1182,383"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:Controller:lnkSpielausgang">
+				<property name="sourceAnchor" value="1462,314"/>
+				<property name="targetAnchor" value="1665,174"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:lnkSpielbrett">
+				<property name="sourceAnchor" value="1302,492"/>
+				<property name="targetAnchor" value="720,479"/>
+				<property name="bendpoints" value="1193,568,971,568"/>
+				<property name="smooth_bendpoints" value="1193,568,971,568"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:GUI">
+			<property name="bounds" value="919,623,174,150"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Spielausgang">
+			<property name="bounds" value="1592,48,136,121"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2010-03-24" title="Toller Titel!" type="capture-go">
+    <comment>Ein Kommentar!</comment>
+    <board size="9"/>
+    <players>
+        <black name="Spieler 1"/>
+        <white name="Spieler 2"/>
+    </players>
+    <setup>
+        <put color="white" pos="e4"/>
+        <put color="white" pos="d5"/>
+        <put color="black" pos="e5"/>
+        <put color="black" pos="d4"/>
+    </setup>
+    <moves>
+        <move color="black" pos="a5"/>
+        <move color="white" pos="b3"/>
+        <move color="black" pos="c2"/>
+        <move color="white" pos="c3"/>
+        <move color="black" pos="d2"/>
+        <move color="white" pos="d3"/>
+    </moves>
+</game>

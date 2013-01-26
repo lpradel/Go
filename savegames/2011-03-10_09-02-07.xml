@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="dawd vs awd" type="go">
+    <comment>dawd</comment>
+    <board size="9"/>
+    <players>
+        <black name="dawd"/>
+        <white name="awd"/>
+    </players>
+    <moves/>
+</game>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-10" title="dawda vs Alice" type="capture-go">
+    <comment>dawd</comment>
+    <board size="9"/>
+    <players>
+        <black name="dawda"/>
+        <white name="Alice"/>
+        <ai color="white" difficulty="hard"/>
+    </players>
+    <setup>
+        <put color="black" pos="d4"/>
+        <put color="black" pos="e5"/>
+        <put color="white" pos="d5"/>
+        <put color="white" pos="e4"/>
+    </setup>
+    <moves/>
+</game>

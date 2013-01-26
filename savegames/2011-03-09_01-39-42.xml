@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE game PUBLIC "GoXML" "http://ls10-www.cs.tu-dortmund.de/~schultze/goxml.dtd">
+
+<game date="2011-03-09" title="Bob vs Ich, HAHAHAHA" type="capture-go">
+    <comment>Leichte KI geschlagen :-)</comment>
+    <board size="9"/>
+    <players>
+        <black name="Bob"/>
+        <white name="Ich, HAHAHAHA"/>
+        <ai color="black" difficulty="easy"/>
+    </players>
+    <setup>
+        <put color="black" pos="d4"/>
+        <put color="black" pos="e5"/>
+        <put color="white" pos="d5"/>
+        <put color="white" pos="e4"/>
+    </setup>
+    <moves>
+        <move color="black" pos="b8"/>
+        <move color="white" pos="f5"/>
+        <move color="black" pos="e6"/>
+        <move color="white" pos="e7"/>
+        <move color="black" pos="b7"/>
+        <move color="white" pos="d6"/>
+        <move color="black" pos="f6"/>
+        <move color="white" pos="g6"/>
+        <move color="black" pos="f7"/>
+        <move color="white" pos="f8"/>
+        <move color="black" pos="g7"/>
+        <move color="white" pos="h7"/>
+        <move color="black" pos="g8"/>
+        <move color="white" pos="h8"/>
+        <move color="black" pos="g9"/>
+        <move color="white" pos="f9"/>
+        <move color="black" pos="h9"/>
+        <move color="white" pos="i9"/>
+    </moves>
+</game>
