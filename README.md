@@ -1,4 +1,4 @@
 Go
 ==
 
-A 2D graphic implementatin of the classic two player board game.
+A 2D graphic implementation of the classic two player board game.
